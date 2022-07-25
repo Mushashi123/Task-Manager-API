@@ -1,0 +1,19 @@
+# Task Manager API
+
+- This is a RESTful API.
+- It is build by using vanilla node.js without any third party dependencies.
+- It helps us perfom CRUD(Create, Read , Update, Delete) of task that we want to do
+- No data based has been used
+- This project was created to understand node.js in depth instead of adding abstraction layer with express.js
+
+## EndPoints :
+
+| Method | Base URL       | endpoint     | Query strings            |
+| ------ | -------------- | ------------ | ------------------------ |
+| GET    | 127.0.0.1:3000 | /api/v1/task | none                     |
+| ---    | ---            | ---          | ---                      |
+| POST   | 127.0.0.1:3000 | /api/v1/task | none(with payload)       |
+| ---    | ---            | ---          | ---                      |
+| PATCH  | 127.0.0.1:3000 | /api/v1/task | ?id=Number(with payload) |
+| ---    | ---            | ---          | ---                      |
+| DELETE | 127.0.0.1:3000 | /api/v1/task | ?id=Number               |
